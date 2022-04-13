@@ -9,7 +9,7 @@ class GetDriver:
     @classmethod
     def get_web_driver(cls, url):
         if cls.__web_driver is None:
-            cls.__web_driver = webdriver.Chrome()
+            cls.__web_driver = webdriver.Chrome('D:\Python\chromedriver.exe')
             cls.__web_driver.maximize_window()
             cls.__web_driver.get(url)
         return cls.__web_driver
