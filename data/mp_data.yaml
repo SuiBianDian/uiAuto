@@ -1,4 +1,31 @@
-mp_login001:
+mp_login000:
   username: "13911111111"
   code: "246810"
   expect: "dc"
+  success: "1"
+
+
+mp_login001:
+  username: "13911111111"
+  code: "2468101"
+  expect: "请求参数错误"
+  success: ""
+
+mp_login002:
+  username: "139111111111"
+  code: "246810"
+  expect: "？？？？？？"
+  success: ""
+
+mp_login003:
+  username: "13911111111"
+  code: "2468101"
+  expect: "请求参数完全正确!!"
+  success: ""
+
+
+mp_login004:
+  username: "13911111111"
+  code: "246810"
+  expect: "1"
+  success: "1"
