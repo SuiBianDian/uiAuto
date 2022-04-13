@@ -424,3 +424,79 @@
 2022-04-13 22:24:59,527 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
 2022-04-13 22:24:59,568 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
 2022-04-13 22:25:00,985 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
+2022-04-13 22:54:05,927 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="b5e7bcaa18a240312f43c6d6ce655546")>
+2022-04-13 22:54:05,928 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-13 22:54:05,928 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-13 22:54:06,940 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-13 22:54:07,215 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
+2022-04-13 22:54:07,260 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-13 22:54:08,282 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-13 22:54:08,576 INFO [base.py(base_input:34)] = 正在输入信息：246810
+2022-04-13 22:54:08,606 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-13 22:54:08,606 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-13 22:54:08,642 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
+2022-04-13 22:54:08,643 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
+2022-04-13 22:54:09,179 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
+  - 1
+  + dc
+2022-04-13 22:54:09,179 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
+2022-04-13 22:54:09,392 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
+2022-04-13 22:54:09,392 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
+2022-04-13 22:54:09,430 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
+2022-04-13 22:54:10,781 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
+2022-04-13 22:54:10,849 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
+2022-04-13 22:54:10,849 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-13 22:54:11,860 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-13 22:54:17,137 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
+2022-04-13 22:54:17,169 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-13 22:54:18,184 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-13 22:54:20,797 INFO [base.py(base_input:34)] = 正在输入信息：2468101
+2022-04-13 22:54:20,829 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-13 22:54:20,829 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-13 22:54:20,866 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-13 22:54:20,866 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-13 22:54:21,402 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：139111111111, 密码：246810
+2022-04-13 22:54:21,402 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-13 22:54:22,415 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-13 22:54:26,692 INFO [base.py(base_input:34)] = 正在输入信息：139111111111
+2022-04-13 22:54:26,738 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-13 22:54:27,748 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-13 22:54:33,021 INFO [base.py(base_input:34)] = 正在输入信息：246810
+2022-04-13 22:54:33,037 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-13 22:54:33,037 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-13 22:54:33,076 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-13 22:54:33,076 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-13 22:54:33,601 ERROR [test01_mp_login.py(test_mp_login:52)] = 断言出错，错误信息为：assert '？？？？？？' == ''
+  + ？？？？？？
+2022-04-13 22:54:33,601 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
+2022-04-13 22:54:33,984 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
+2022-04-13 22:54:33,992 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
+2022-04-13 22:54:33,992 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-13 22:54:35,010 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-13 22:54:35,293 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
+2022-04-13 22:54:35,322 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-13 22:54:36,340 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-13 22:54:36,628 INFO [base.py(base_input:34)] = 正在输入信息：2468101
+2022-04-13 22:54:36,655 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-13 22:54:36,655 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-13 22:54:36,676 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-13 22:54:36,677 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-13 22:54:36,688 ERROR [test01_mp_login.py(test_mp_login:52)] = 断言出错，错误信息为：assert '请求参数完全正确!!' == '请求参数错误'
+  - 请求参数错误
+  + 请求参数完全正确!!
+2022-04-13 22:54:36,688 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
+2022-04-13 22:54:36,969 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
+2022-04-13 22:54:36,979 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-13 22:54:36,979 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-13 22:54:37,999 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-13 22:54:38,274 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
+2022-04-13 22:54:38,305 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-13 22:54:39,320 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-13 22:54:39,600 INFO [base.py(base_input:34)] = 正在输入信息：246810
+2022-04-13 22:54:39,621 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-13 22:54:39,621 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-13 22:54:39,642 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
+2022-04-13 22:54:39,642 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
+2022-04-13 22:54:40,179 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
+2022-04-13 22:54:40,220 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
+2022-04-13 22:54:41,634 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
