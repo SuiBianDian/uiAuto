@@ -2,8 +2,9 @@ from time import sleep
 
 import page
 from base.web_base import WebBase
+from tools.get_log import GetLog
 
-
+log = GetLog.get_logger()
 class PageMpArticle(WebBase):
     # 点击内容管理
     def page_click_content_manage(self):
@@ -44,12 +45,13 @@ class PageMpArticle(WebBase):
         return self.base_get_txt(page.web_publish_info)
 
     # 组合业务
-    def page_mp_article(self, title, value, click_text):
+    def page_mp_article(self, title, content, click_text):
+        log.info(f'正在执行组合业务，标题：{title}, 内容：{content}, 频道:{click_text}')
         self.page_click_content_manage()
         sleep(1)
         self.page_click_publish_article()
         self.page_input_title(title)
-        self.page_input_content(value)
+        self.page_input_content(content)
         self.page_choose_cover()
         self.page_choose_channel(click_text)
         self.page_click_publish()

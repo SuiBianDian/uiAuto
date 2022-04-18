@@ -1,7 +1,8 @@
 import page
 from base.base import Base
+from tools.get_log import GetLog
 
-
+log = GetLog.get_logger()
 class PageMpLogin(Base):
     # 输入用户名
     def page_input_username(self, username):
@@ -30,6 +31,7 @@ class PageMpLogin(Base):
 
     # 组合业务(成功)，用于发布文章
     def page_mp_login_success(self, username='13911111111', code='246810'):
+        log.info(f'正在执行成功组合业务，用户名：{username}, 密码：{code}')
         """
         组合业务只能组合同页面的业务，多页面需要切换页面才能进行操作
         """
