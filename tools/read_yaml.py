@@ -7,9 +7,9 @@ from config import bath_path
 
 def read_yaml(fileName):
     arrs = []
-    # file_path = './data/mp_data.yaml'
-    file_path = bath_path + os.sep + 'data' + os.sep + fileName  # os.sep （会自动获取当前系统的分隔符 '/' or '\'）
-    print(bath_path)
+    file_path = f'./data/{fileName}'
+    # file_path = bath_path + os.sep + 'data' + os.sep + fileName  # os.sep （会自动获取当前系统的分隔符 '/' or '\'）
+    # print(bath_path)
     """
     注意此处的文件地址，因为我用的命令行执行，所以是uiAuto目录下，那么直接进入data就行了。
     但是，如果是用的点击运行，那就不行了，那此时是在scripts目录下，想进入data需要返回上一级在进入

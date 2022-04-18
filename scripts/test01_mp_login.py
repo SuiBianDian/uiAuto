@@ -30,6 +30,7 @@ class TestMpLogin:
     @pytest.mark.parametrize('username,code,expect,success', read_yaml('mp_data.yaml'))
     def test_mp_login(self, username, code, expect, success):
         # 1.调用登陆方法
+        log.info(f'正在执行组合业务，用户名：{username}, 密码：{code}')
         self.mp.page_mp_login(username, code)
         if success:
             try:

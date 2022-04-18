@@ -18,3 +18,16 @@ mp_xx = (By.CSS_SELECTOR, '.el-icon-close')
 mp_touxiang = (By.CSS_SELECTOR, '.user-name')
 # 退出
 mp_exit = (By.CSS_SELECTOR, '.el-dropdown-menu__item--divided')
+
+"""以下为发布文章  web项目数据"""
+web_url = 'http://pc-toutiao-python.itheima.net/#/index'
+web_fuxuan = (By.CSS_SELECTOR, '[placeholder="请选择"]')
+
+web_content_manage = (By.XPATH, '//span[text()="内容管理"]')
+web_publish_article = By.XPATH, '//*[contains(text(),"发布文章")]'
+web_title = By.CSS_SELECTOR, '[placeholder="文章名称"]'
+web_iframe = By.CSS_SELECTOR, '#publishTinymce_ifr'
+web_content = By.CSS_SELECTOR, '#tinymce'
+web_cover = By.XPATH, '//span[text()="自动"]'
+web_publish = By.XPATH, '//span[text()="发表"]'
+web_publish_info = By.CSS_SELECTOR, '.el-message__content'

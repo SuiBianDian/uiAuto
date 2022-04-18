@@ -1,502 +1,1198 @@
-2022-04-13 21:34:31,846 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="45bdab2c36669f1cea994924c26e677d")>
-2022-04-13 21:34:31,846 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 21:34:31,847 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 21:34:32,869 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 21:34:33,164 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 21:34:33,202 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 21:34:34,224 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 21:34:34,495 INFO [base.py(base_input:34)] = 正在输入信息：2468101
-2022-04-13 21:34:34,525 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 21:34:34,525 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 21:34:34,560 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', 'el-message__content')
-2022-04-13 21:34:37,779 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 21:34:37,779 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 21:34:38,795 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 21:34:39,083 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 21:34:39,113 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 21:34:40,119 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 21:34:40,403 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 21:34:40,429 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 21:34:40,429 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 21:34:40,451 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', 'el-message__content')
-2022-04-13 21:35:14,475 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="b6a9bab0eefbe4856201e8a580ec5915")>
-2022-04-13 21:35:14,476 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 21:35:14,476 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 21:35:15,503 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 21:35:15,767 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 21:35:15,818 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 21:35:16,829 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 21:35:17,106 INFO [base.py(base_input:34)] = 正在输入信息：2468101
-2022-04-13 21:35:17,138 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 21:35:17,138 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 21:35:17,175 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', 'el-message__content')
-2022-04-13 21:35:20,365 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 21:35:20,365 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 21:35:21,381 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 21:35:21,670 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 21:35:21,699 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 21:35:22,713 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 21:35:22,981 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 21:35:23,004 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 21:35:23,004 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 21:35:23,029 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', 'el-message__content')
-2022-04-13 21:41:28,654 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="92c3e9fb014d3003171072b4ede9c862")>
-2022-04-13 21:41:28,655 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 21:41:28,655 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 21:41:29,679 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 21:41:29,957 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 21:41:29,997 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 21:41:31,014 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 21:41:31,293 INFO [base.py(base_input:34)] = 正在输入信息：2468101
-2022-04-13 21:41:31,323 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 21:41:31,323 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 21:41:31,360 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 21:41:31,361 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 21:42:01,957 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 21:42:01,957 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 21:42:02,973 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 21:42:03,252 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 21:42:03,284 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 21:42:04,293 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 21:42:04,583 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 21:42:04,607 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 21:42:04,607 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 21:42:04,632 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 21:42:04,632 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 21:43:46,873 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="daebc897d4c2bd72a4b1cb40ad494b49")>
-2022-04-13 21:43:46,874 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 21:43:46,874 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 21:43:47,898 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 21:43:48,182 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 21:43:48,222 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 21:43:49,233 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 21:43:49,503 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 21:43:49,533 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 21:43:49,533 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 21:43:49,571 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 21:43:49,572 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 21:43:50,104 ERROR [test01_mp_login.py(test_mp_login:38)] = 断言出错，错误信息为：assert '请求参数错误' == '1'
-  - 1
-  + 请求参数错误
-2022-04-13 21:43:50,105 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 21:43:50,321 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 21:43:50,332 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 21:43:50,332 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 21:45:04,296 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="5ab62900a8952f1736455b7cb18d6958")>
-2022-04-13 21:45:04,297 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 21:45:04,297 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 21:45:05,324 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 21:45:05,618 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 21:45:05,656 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 21:45:06,668 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 21:45:06,944 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 21:45:06,974 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 21:45:06,974 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 21:45:07,009 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 21:45:07,009 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 21:45:07,542 ERROR [test01_mp_login.py(test_mp_login:38)] = 断言出错，错误信息为：assert '请求参数错误' == '1'
-  - 1
-  + 请求参数错误
-2022-04-13 21:45:07,543 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 21:45:07,767 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 21:45:07,773 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 21:45:07,773 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:01:30,905 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="5391a364a3dd64fe76d8a56dac7312e9")>
-2022-04-13 22:01:30,906 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:01:30,906 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:01:31,927 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:01:32,204 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:01:32,249 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:01:33,266 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:01:33,538 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:01:33,575 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:01:33,576 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:01:33,614 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:01:33,614 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:01:34,181 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
-  - 1
-  + dc
-2022-04-13 22:01:34,181 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:01:34,505 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:01:34,505 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:01:34,543 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-avatar')
-2022-04-13 22:01:34,953 INFO [base.py(base_find:22)] = 正在定位元素：('link text', '退出')
-2022-04-13 22:01:38,239 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 22:01:38,239 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:01:44,925 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:01:45,202 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:01:45,238 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:01:46,253 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:01:46,528 INFO [base.py(base_input:34)] = 正在输入信息：2468101
-2022-04-13 22:01:46,559 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:01:46,559 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:01:46,603 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', 'el-message__content')的文本
-2022-04-13 22:01:46,603 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', 'el-message__content')
-2022-04-13 22:02:17,076 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：139111111111, 密码：246810
-2022-04-13 22:02:17,076 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:02:18,102 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:02:18,377 INFO [base.py(base_input:34)] = 正在输入信息：139111111111
-2022-04-13 22:02:18,408 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:02:19,416 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:02:19,694 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:02:19,718 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:02:19,719 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:02:19,741 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', 'el-message__content')的文本
-2022-04-13 22:02:19,742 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', 'el-message__content')
-2022-04-13 22:02:49,922 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 22:02:49,922 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:02:50,937 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:02:51,216 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:02:51,246 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:02:52,261 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:02:52,532 INFO [base.py(base_input:34)] = 正在输入信息：2468101
-2022-04-13 22:02:52,557 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:02:52,557 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:02:52,580 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', 'el-message__content')的文本
-2022-04-13 22:02:52,581 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', 'el-message__content')
-2022-04-13 22:03:22,910 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:03:22,910 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:03:23,933 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:03:24,215 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:03:24,246 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:03:25,262 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:03:25,537 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:03:25,560 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:03:25,560 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:03:25,581 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:03:25,581 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:03:26,112 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:03:26,147 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-avatar')
-2022-04-13 22:03:26,570 INFO [base.py(base_find:22)] = 正在定位元素：('link text', '退出')
-2022-04-13 22:03:36,776 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="bcf9aa050d53853a2f9bd53917364ec7")>
-2022-04-13 22:03:36,777 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:03:36,777 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:03:37,795 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:03:38,084 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:03:38,123 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:03:39,140 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:03:39,433 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:03:39,462 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:03:39,462 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:03:39,499 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:03:39,499 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:03:40,038 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
-  - 1
-  + dc
-2022-04-13 22:03:40,038 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:03:40,265 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:03:40,266 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:03:40,303 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-avatar')
-2022-04-13 22:03:40,654 INFO [base.py(base_find:22)] = 正在定位元素：('xpath', '//span[text()="退出"]')
-2022-04-13 22:03:40,869 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 22:03:40,869 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:04:10,928 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：139111111111, 密码：246810
-2022-04-13 22:04:10,928 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:04:41,162 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 22:04:41,162 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:05:11,438 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:05:11,438 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:06:21,299 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="49dfab193871b7109775341923bdd4be")>
-2022-04-13 22:06:21,300 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:06:21,301 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:06:22,320 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:06:22,609 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:06:22,647 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:06:23,668 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:06:23,957 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:06:23,986 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:06:23,986 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:06:24,026 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:06:24,026 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:06:24,558 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
-  - 1
-  + dc
-2022-04-13 22:06:24,559 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:06:24,774 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:06:24,775 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:06:24,817 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-avatar')
-2022-04-13 22:06:25,162 INFO [base.py(base_find:22)] = 正在定位元素：('xpath', '//span[text()="退出"]')
-2022-04-13 22:12:06,116 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="e2de54fb6fb1cc2ed046cf898cb1fe0b")>
-2022-04-13 22:12:06,117 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:12:06,117 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:12:07,137 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:12:07,407 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:12:07,447 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:12:08,467 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:12:08,759 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:12:08,790 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:12:08,790 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:12:08,827 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:12:08,827 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:12:09,359 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
-  - 1
-  + dc
-2022-04-13 22:12:09,359 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:12:09,575 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:12:09,576 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:12:09,611 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-avatar')
-2022-04-13 22:12:09,965 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
-2022-04-13 22:13:56,180 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="03a3d003a14ab79bc5ba47bf51364bae")>
-2022-04-13 22:13:56,181 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:13:56,181 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:13:57,195 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:13:57,475 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:13:57,512 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:13:58,532 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:13:58,806 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:13:58,836 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:13:58,836 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:13:58,873 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:13:58,873 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:13:59,406 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
-  - 1
-  + dc
-2022-04-13 22:13:59,406 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:13:59,621 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:13:59,621 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:13:59,656 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:14:00,007 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
-2022-04-13 22:14:22,648 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="423f3c2e1628a83412ea96cadf07b079")>
-2022-04-13 22:14:22,648 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:14:22,649 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:14:23,664 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:14:23,936 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:14:23,973 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:14:24,989 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:14:25,270 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:14:25,298 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:14:25,298 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:14:25,334 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:14:25,334 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:14:25,869 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
-  - 1
-  + dc
-2022-04-13 22:14:25,870 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:14:26,090 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:14:26,091 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:14:27,136 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:14:28,180 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
-2022-04-13 22:14:49,060 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="66307c8283e7dfb45337a8665f48748d")>
-2022-04-13 22:14:49,061 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:14:49,061 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:14:50,071 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:14:50,374 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:14:50,413 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:14:51,430 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:14:51,702 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:14:51,730 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:14:51,730 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:14:51,768 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:14:51,768 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:14:52,300 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
-  - 1
-  + dc
-2022-04-13 22:14:52,301 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:14:52,517 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:14:52,518 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:14:52,604 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:14:52,947 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
-2022-04-13 22:15:17,443 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="b7ab67dab9b847096d286b0632082045")>
-2022-04-13 22:15:17,444 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:15:17,444 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:15:18,462 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:15:18,753 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:15:18,791 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:15:19,803 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:15:20,084 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:15:20,111 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:15:20,111 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:15:20,149 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:15:20,149 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:15:20,692 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
-  - 1
-  + dc
-2022-04-13 22:15:20,692 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:15:20,916 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:15:20,917 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:15:20,959 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:15:22,315 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
-2022-04-13 22:19:25,033 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="ba928349b9ffa18338fd43928c3a77f9")>
-2022-04-13 22:19:25,035 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:19:25,035 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:19:26,060 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:19:26,332 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:19:26,372 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:19:27,393 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:19:27,671 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:19:27,701 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:19:27,701 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:19:27,738 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:19:27,738 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:19:28,273 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
-  - 1
-  + dc
-2022-04-13 22:19:28,273 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:19:28,488 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:19:28,489 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:19:28,526 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:19:29,891 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
-2022-04-13 22:19:29,944 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 22:19:29,944 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:19:30,955 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:19:31,229 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:19:31,266 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:19:32,284 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:19:32,560 INFO [base.py(base_input:34)] = 正在输入信息：2468101
-2022-04-13 22:19:32,589 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:19:32,589 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:19:32,624 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', 'el-message__content')的文本
-2022-04-13 22:19:32,624 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', 'el-message__content')
-2022-04-13 22:24:42,243 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="615782dbecedf92d3d02d5b5e4aa4c10")>
-2022-04-13 22:24:42,244 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:24:42,244 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:24:43,255 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:24:43,557 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:24:43,596 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:24:44,612 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:24:44,894 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:24:44,922 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:24:44,922 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:24:44,959 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:24:44,960 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:24:45,488 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
-  - 1
-  + dc
-2022-04-13 22:24:45,489 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:24:45,706 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:24:45,706 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:24:45,745 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:24:47,106 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
-2022-04-13 22:24:47,169 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 22:24:47,169 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:24:48,178 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:24:48,457 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:24:48,490 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:24:49,498 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:24:49,777 INFO [base.py(base_input:34)] = 正在输入信息：2468101
-2022-04-13 22:24:49,806 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:24:49,807 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:24:49,839 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
-2022-04-13 22:24:49,839 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-message__content')
-2022-04-13 22:24:50,380 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：139111111111, 密码：246810
-2022-04-13 22:24:50,380 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:24:51,398 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:24:51,679 INFO [base.py(base_input:34)] = 正在输入信息：139111111111
-2022-04-13 22:24:51,712 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:24:52,720 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:24:53,000 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:24:53,027 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:24:53,027 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:24:53,049 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
-2022-04-13 22:24:53,049 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-message__content')
-2022-04-13 22:24:53,060 ERROR [test01_mp_login.py(test_mp_login:52)] = 断言出错，错误信息为：assert '？？？？？？' == '请求参数错误'
-  - 请求参数错误
-  + ？？？？？？
-2022-04-13 22:24:53,061 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:24:53,345 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:24:53,351 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 22:24:53,352 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:24:54,372 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:24:54,660 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:24:54,688 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:24:55,709 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:24:55,979 INFO [base.py(base_input:34)] = 正在输入信息：2468101
-2022-04-13 22:24:56,002 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:24:56,003 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:24:56,022 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
-2022-04-13 22:24:56,023 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-message__content')
-2022-04-13 22:24:56,037 ERROR [test01_mp_login.py(test_mp_login:52)] = 断言出错，错误信息为：assert '请求参数完全正确!!' == '请求参数错误'
-  - 请求参数错误
-  + 请求参数完全正确!!
-2022-04-13 22:24:56,037 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:24:56,315 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:24:56,321 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:24:56,322 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:24:57,339 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:24:57,626 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:24:57,655 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:24:58,671 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:24:58,950 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:24:58,974 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:24:58,974 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:24:58,995 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:24:58,995 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:24:59,527 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:24:59,568 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:25:00,985 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
-2022-04-13 22:54:05,927 INFO [base.py(__init__:14)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="b5e7bcaa18a240312f43c6d6ce655546")>
-2022-04-13 22:54:05,928 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:54:05,928 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:54:06,940 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:54:07,215 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:54:07,260 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:54:08,282 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:54:08,576 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:54:08,606 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:54:08,606 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:54:08,642 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:54:08,643 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:54:09,179 ERROR [test01_mp_login.py(test_mp_login:39)] = 断言出错，错误信息为：assert 'dc' == '1'
-  - 1
-  + dc
-2022-04-13 22:54:09,179 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:54:09,392 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:54:09,392 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:54:09,430 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:54:10,781 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
-2022-04-13 22:54:10,849 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 22:54:10,849 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:54:11,860 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:54:17,137 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:54:17,169 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:54:18,184 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:54:20,797 INFO [base.py(base_input:34)] = 正在输入信息：2468101
-2022-04-13 22:54:20,829 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:54:20,829 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:54:20,866 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
-2022-04-13 22:54:20,866 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-message__content')
-2022-04-13 22:54:21,402 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：139111111111, 密码：246810
-2022-04-13 22:54:21,402 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:54:22,415 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:54:26,692 INFO [base.py(base_input:34)] = 正在输入信息：139111111111
-2022-04-13 22:54:26,738 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:54:27,748 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:54:33,021 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:54:33,037 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:54:33,037 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:54:33,076 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
-2022-04-13 22:54:33,076 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-message__content')
-2022-04-13 22:54:33,601 ERROR [test01_mp_login.py(test_mp_login:52)] = 断言出错，错误信息为：assert '？？？？？？' == ''
-  + ？？？？？？
-2022-04-13 22:54:33,601 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:54:33,984 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:54:33,992 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
-2022-04-13 22:54:33,992 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:54:35,010 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:54:35,293 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:54:35,322 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:54:36,340 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:54:36,628 INFO [base.py(base_input:34)] = 正在输入信息：2468101
-2022-04-13 22:54:36,655 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:54:36,655 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:54:36,676 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
-2022-04-13 22:54:36,677 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-message__content')
-2022-04-13 22:54:36,688 ERROR [test01_mp_login.py(test_mp_login:52)] = 断言出错，错误信息为：assert '请求参数完全正确!!' == '请求参数错误'
-  - 请求参数错误
-  + 请求参数完全正确!!
-2022-04-13 22:54:36,688 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
-2022-04-13 22:54:36,969 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
-2022-04-13 22:54:36,979 INFO [page_mp_login.py(page_mp_login:30)] = 正在执行组合业务，用户名：13911111111, 密码：246810
-2022-04-13 22:54:36,979 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
-2022-04-13 22:54:37,999 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
-2022-04-13 22:54:38,274 INFO [base.py(base_input:34)] = 正在输入信息：13911111111
-2022-04-13 22:54:38,305 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
-2022-04-13 22:54:39,320 INFO [base.py(base_input:31)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
-2022-04-13 22:54:39,600 INFO [base.py(base_input:34)] = 正在输入信息：246810
-2022-04-13 22:54:39,621 INFO [base.py(base_click:40)] = 正在点击：('css selector', '.el-button--primary')
-2022-04-13 22:54:39,621 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-button--primary')
-2022-04-13 22:54:39,642 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.user-name')的文本
-2022-04-13 22:54:39,642 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:54:40,179 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-icon-close')
-2022-04-13 22:54:40,220 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.user-name')
-2022-04-13 22:54:41,634 INFO [base.py(base_find:22)] = 正在定位元素：('css selector', '.el-dropdown-menu__item--divided')
+2022-04-18 16:49:11,613 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="09e1de2720958501c3dcc3000e8b9da4")>
+2022-04-18 16:49:11,614 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：1391111111111, 密码：246810
+2022-04-18 16:49:11,615 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 16:49:12,632 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 16:49:12,915 INFO [base.py(base_input:35)] = 正在输入信息：1391111111111
+2022-04-18 16:49:12,964 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 16:49:13,984 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 16:49:14,266 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 16:49:14,295 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 16:49:14,295 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 16:49:14,335 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="09e1de2720958501c3dcc3000e8b9da4")>
+2022-04-18 16:49:14,337 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:49:14,337 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:49:32,233 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:49:32,233 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:49:44,434 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:49:44,434 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:49:56,595 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:49:56,595 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:50:08,811 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:50:08,811 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:51:33,134 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="51130c27a9512c9fde773746d7aad071")>
+2022-04-18 16:51:33,134 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 16:51:33,134 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 16:51:34,157 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 16:51:34,461 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 16:51:34,497 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 16:51:35,512 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 16:51:35,791 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 16:51:35,818 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 16:51:35,819 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 16:51:35,857 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="51130c27a9512c9fde773746d7aad071")>
+2022-04-18 16:51:35,858 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:51:35,858 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:51:36,993 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:51:36,993 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:51:37,205 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:51:37,205 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:51:37,237 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:51:37,238 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:51:37,276 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 16:51:38,819 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 16:51:39,105 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 16:51:39,164 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 16:51:39,185 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:51:39,185 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:51:39,213 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:51:39,213 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:51:39,236 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 16:51:40,241 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 16:51:40,523 INFO [base.py(base_input:35)] = 正在输入信息：139111111111
+2022-04-18 16:51:40,567 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 16:51:40,582 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:51:40,582 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:51:40,605 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:51:40,605 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:51:40,655 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:51:40,655 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:51:40,684 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:51:40,684 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:51:40,711 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 16:51:41,726 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 16:51:42,004 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 16:51:42,047 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 16:56:42,385 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="ecaccee609a50efa66ec6a9b1bdc814a")>
+2022-04-18 16:56:42,385 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 16:56:42,385 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 16:56:43,400 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 16:56:43,680 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 16:56:43,724 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 16:56:44,746 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 16:56:45,029 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 16:56:45,057 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 16:56:45,057 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 16:56:45,095 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="ecaccee609a50efa66ec6a9b1bdc814a")>
+2022-04-18 16:56:45,096 INFO [test02_mp_article.py(test_mp_article:27)] = 正在调用发布文章业务方法：title:13911111111, content:246810, click_text:dc, expect:1
+2022-04-18 16:56:45,096 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:56:45,096 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:56:46,229 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:56:46,229 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:56:46,430 INFO [test02_mp_article.py(test_mp_article:27)] = 正在调用发布文章业务方法：title:13911111111, content:2468101, click_text:请求参数错误, expect:
+2022-04-18 16:56:46,430 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:56:46,430 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:56:46,457 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:56:46,458 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 16:56:46,497 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 16:56:48,032 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 16:56:48,313 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 16:56:48,371 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 16:56:48,395 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 16:56:49,412 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 16:56:49,741 INFO [base.py(base_input:35)] = 正在输入信息：2468101
+2022-04-18 16:56:49,822 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 16:56:49,822 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 16:56:49,863 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 16:56:49,863 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 16:56:50,920 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="请求参数错误"]')
+2022-04-18 16:56:50,920 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="请求参数错误"]')
+2022-04-18 16:57:24,101 INFO [test02_mp_article.py(test_mp_article:27)] = 正在调用发布文章业务方法：title:139111111111, content:246810, click_text:？？？？？？, expect:
+2022-04-18 16:57:24,101 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:57:24,101 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:57:36,289 INFO [test02_mp_article.py(test_mp_article:27)] = 正在调用发布文章业务方法：title:13911111111, content:2468101, click_text:请求参数完全正确!!, expect:
+2022-04-18 16:57:36,289 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:57:36,289 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:57:48,486 INFO [test02_mp_article.py(test_mp_article:27)] = 正在调用发布文章业务方法：title:13911111111, content:246810, click_text:1, expect:1
+2022-04-18 16:57:48,486 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:57:48,486 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 16:58:00,914 WARNING [connectionpool.py(urlopen:780)] = Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF1984FD60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecaccee609a50efa66ec6a9b1bdc814a
+2022-04-18 16:58:02,940 WARNING [connectionpool.py(urlopen:780)] = Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF1A834820>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecaccee609a50efa66ec6a9b1bdc814a
+2022-04-18 16:58:04,975 WARNING [connectionpool.py(urlopen:780)] = Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF1A834BB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecaccee609a50efa66ec6a9b1bdc814a
+2022-04-18 17:02:02,694 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="40c01958d99da576a9e3bb34f5ca47e5")>
+2022-04-18 17:02:02,694 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:02:02,694 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:02:03,711 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:02:03,996 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:02:04,040 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:02:05,061 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:02:05,334 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:02:05,364 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:02:05,364 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:02:05,404 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="40c01958d99da576a9e3bb34f5ca47e5")>
+2022-04-18 17:02:05,405 INFO [test02_mp_article.py(test_mp_article:27)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:02:05,405 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:02:05,405 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:02:06,659 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:02:06,659 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:03:08,024 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="962f24a8a103c3786578d14860e84b1e")>
+2022-04-18 17:03:08,024 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:03:08,024 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:03:09,039 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:03:09,310 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:03:09,349 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:03:10,362 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:03:10,643 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:03:10,672 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:03:10,672 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:03:10,707 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="962f24a8a103c3786578d14860e84b1e")>
+2022-04-18 17:03:10,707 INFO [test02_mp_article.py(test_mp_article:27)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:03:10,708 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:03:10,708 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:03:32,600 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="12a52e81d825a2beced8be50571ded19")>
+2022-04-18 17:03:32,601 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:03:32,601 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:03:33,613 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:03:33,890 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:03:33,927 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:03:34,946 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:03:35,226 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:03:35,253 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:03:35,253 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:03:35,292 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="12a52e81d825a2beced8be50571ded19")>
+2022-04-18 17:03:35,293 INFO [test02_mp_article.py(test_mp_article:27)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:03:35,293 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:03:35,293 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:03:37,619 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:03:37,619 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:03:37,663 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:03:39,195 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:03:39,473 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:03:39,513 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:03:39,537 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:03:40,548 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:03:40,867 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:03:40,994 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:03:40,994 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:03:41,032 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:03:41,032 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:03:43,097 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:03:43,097 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:03:43,153 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:03:43,153 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:03:43,198 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:03:43,198 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:09:43,493 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="e56b69562df15e65545a9ea673025aca")>
+2022-04-18 17:09:43,493 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:09:43,493 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:09:44,530 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:09:44,807 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:09:44,846 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:09:45,855 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:09:46,143 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:09:46,171 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:09:46,171 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:09:46,211 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="e56b69562df15e65545a9ea673025aca")>
+2022-04-18 17:09:46,226 INFO [test02_mp_article.py(test_mp_article:30)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:09:46,226 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:09:46,226 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:09:48,490 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:09:48,490 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:09:48,537 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:09:50,077 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:09:50,361 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:09:50,395 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:09:50,419 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:09:51,429 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:09:51,756 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:09:51,880 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:09:51,880 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:09:51,921 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:09:51,921 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:09:52,975 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:09:52,975 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:09:53,025 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:09:53,025 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:09:53,066 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:09:53,066 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:09:53,620 INFO [test02_mp_article.py(test_mp_article:30)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章失败
+2022-04-18 17:09:53,620 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:09:53,620 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:09:55,124 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:09:55,124 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:10:41,561 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="ead0e6699971c38026e3afce6abf6a41")>
+2022-04-18 17:10:41,561 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:10:41,561 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:10:42,576 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:10:42,868 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:10:42,915 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:10:43,926 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:10:44,207 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:10:44,235 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:10:44,236 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:10:44,273 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="ead0e6699971c38026e3afce6abf6a41")>
+2022-04-18 17:10:47,523 INFO [test02_mp_article.py(test_mp_article:33)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:10:47,523 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:10:47,524 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:10:49,342 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:10:49,342 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:10:49,388 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:10:50,932 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:10:51,229 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:10:51,268 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:10:51,294 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:10:52,309 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:10:52,616 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:10:52,736 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:10:52,736 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:10:52,777 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:10:52,777 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:10:53,840 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:10:53,840 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:10:53,896 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:10:53,896 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:10:53,940 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:10:53,940 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:10:54,498 ERROR [test02_mp_article.py(test_mp_article:39)] = 断言失败，错误信息为assert '新增文章成功' == ''
+  + 新增文章成功
+2022-04-18 17:10:54,498 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
+2022-04-18 17:10:54,785 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:10:57,811 INFO [test02_mp_article.py(test_mp_article:33)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章失败
+2022-04-18 17:10:57,811 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:10:57,812 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:10:59,700 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:10:59,700 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:12:25,285 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="3c55e00fc1780dc2b843f1da20d89d5f")>
+2022-04-18 17:12:25,285 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:12:25,285 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:12:26,297 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:12:26,603 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:12:26,648 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:12:27,665 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:12:27,953 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:12:27,982 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:12:27,982 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:12:28,019 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="3c55e00fc1780dc2b843f1da20d89d5f")>
+2022-04-18 17:12:28,129 INFO [test02_mp_article.py(test_mp_article:33)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:12:28,129 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:12:28,129 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:12:49,362 WARNING [connectionpool.py(urlopen:780)] = Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017DEAD1F6A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c55e00fc1780dc2b843f1da20d89d5f
+2022-04-18 17:12:51,403 WARNING [connectionpool.py(urlopen:780)] = Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017DEAD1F670>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c55e00fc1780dc2b843f1da20d89d5f
+2022-04-18 17:12:53,461 WARNING [connectionpool.py(urlopen:780)] = Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017DEABE98E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c55e00fc1780dc2b843f1da20d89d5f
+2022-04-18 17:13:08,398 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="9ba74ca35d25e2d7ce8f8f3d5e82153c")>
+2022-04-18 17:13:08,399 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:13:08,399 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:13:09,415 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:13:09,695 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:13:09,732 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:13:10,752 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:13:11,036 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:13:11,063 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:13:11,063 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:13:11,101 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="9ba74ca35d25e2d7ce8f8f3d5e82153c")>
+2022-04-18 17:13:11,322 INFO [test02_mp_article.py(test_mp_article:33)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:13:11,322 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:13:11,322 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:13:19,616 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:13:19,616 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:13:19,664 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:13:21,209 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:13:21,494 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:13:21,534 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:13:21,558 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:13:22,568 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:13:22,879 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:13:23,004 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:13:23,004 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:13:23,043 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:13:23,043 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:13:24,099 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:13:24,099 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:13:24,157 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:13:24,157 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:13:24,205 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:13:24,205 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:13:25,496 INFO [test02_mp_article.py(test_mp_article:33)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章失败
+2022-04-18 17:13:25,496 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:13:25,496 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:13:26,739 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:13:26,739 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:13:26,784 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:13:28,329 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:13:28,635 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:13:28,671 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:13:28,689 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:13:29,706 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:13:30,024 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:13:30,143 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:13:30,143 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:13:30,179 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:13:30,179 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:13:31,229 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:13:31,229 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:13:31,281 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:13:31,281 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:13:31,320 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:13:31,320 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:13:31,876 ERROR [test02_mp_article.py(test_mp_article:39)] = 断言失败，错误信息为assert '新增文章失败' == '新增文章成功'
+  - 新增文章成功
+  + 新增文章失败
+2022-04-18 17:13:31,876 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
+2022-04-18 17:13:32,043 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:15:04,527 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="e46738f666602783650b91c6ce500fe4")>
+2022-04-18 17:15:04,527 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:15:04,527 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:15:05,549 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:15:05,829 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:15:05,867 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:15:06,890 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:15:07,178 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:15:07,207 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:15:07,207 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:15:07,241 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="e46738f666602783650b91c6ce500fe4")>
+2022-04-18 17:15:07,751 INFO [test02_mp_article.py(test_mp_article:33)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:15:07,751 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:15:07,751 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:15:15,038 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:15:15,038 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:15:15,085 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:15:16,611 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:15:16,901 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:15:16,942 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:15:16,968 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:15:17,989 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:15:18,311 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:15:18,434 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:15:18,435 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:15:18,474 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:15:18,474 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:15:19,536 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:15:19,536 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:15:19,592 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:15:19,592 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:15:19,633 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:15:19,633 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:15:20,191 INFO [test02_mp_article.py(test_mp_article:33)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章失败
+2022-04-18 17:15:20,192 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:15:20,192 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:15:22,246 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:15:22,246 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:15:22,295 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:15:23,826 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:15:24,106 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:15:24,141 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:15:24,165 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:15:25,179 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:15:25,503 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:15:25,624 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:15:25,624 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:15:25,664 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:15:25,664 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:15:26,721 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:15:26,721 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:15:26,789 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:15:26,789 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:15:26,832 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:15:26,833 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:15:27,372 ERROR [test02_mp_article.py(test_mp_article:39)] = 断言失败，错误信息为assert '新增文章失败' == '新增文章成功'
+  - 新增文章成功
+  + 新增文章失败
+2022-04-18 17:15:27,372 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
+2022-04-18 17:15:27,560 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:17:12,129 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="6e6b03aa7f6b1f730a16b0ba8b73d34d")>
+2022-04-18 17:17:12,129 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:17:12,129 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:17:13,149 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:17:13,442 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:17:13,481 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:17:14,500 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:17:14,775 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:17:14,803 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:17:14,803 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:17:14,841 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="6e6b03aa7f6b1f730a16b0ba8b73d34d")>
+2022-04-18 17:17:15,035 INFO [test02_mp_article.py(test_mp_article:33)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:17:15,035 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:17:15,035 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:19:00,349 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="614a1f6f5e75c72624415e0ed4564c32")>
+2022-04-18 17:19:00,349 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:19:00,349 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:19:01,372 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:19:01,652 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:19:01,689 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:19:02,702 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:19:02,985 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:19:03,012 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:19:03,012 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:19:03,049 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="614a1f6f5e75c72624415e0ed4564c32")>
+2022-04-18 17:19:04,545 INFO [test02_mp_article.py(test_mp_article:34)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:19:04,545 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:19:04,546 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:19:06,358 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:19:06,358 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:19:06,405 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:19:07,948 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:19:08,255 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:19:08,294 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:19:08,318 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:19:09,333 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:19:09,643 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:19:09,765 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:19:09,766 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:19:09,807 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:19:09,807 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:19:10,867 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:19:10,867 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:19:10,924 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:19:10,924 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:19:10,967 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:19:10,967 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:19:12,244 INFO [test02_mp_article.py(test_mp_article:34)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章失败
+2022-04-18 17:19:12,244 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:19:12,244 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:19:14,071 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:19:14,071 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:19:14,120 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:19:15,667 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:19:15,948 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:19:15,984 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:19:16,007 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:19:17,022 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:19:17,361 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:19:17,482 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:19:17,482 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:19:17,519 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:19:17,519 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:19:18,580 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:19:18,580 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:19:18,636 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:19:18,636 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:19:18,677 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:19:18,677 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:19:19,211 ERROR [test02_mp_article.py(test_mp_article:40)] = 断言失败，错误信息为assert '新增文章失败' == '新增文章成功'
+  - 新增文章成功
+  + 新增文章失败
+2022-04-18 17:19:19,211 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
+2022-04-18 17:19:19,397 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:20:04,872 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="9fb201ba3ac0b0cd2419ed10c63e55ad")>
+2022-04-18 17:20:04,872 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:20:04,872 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:20:05,892 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:20:06,183 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:20:06,221 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:20:07,230 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:20:07,516 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:20:07,544 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:20:07,544 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:20:07,581 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="9fb201ba3ac0b0cd2419ed10c63e55ad")>
+2022-04-18 17:20:07,599 INFO [test02_mp_article.py(test_mp_article:33)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:20:07,599 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:20:07,599 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:20:09,855 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:20:09,855 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:20:09,899 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:20:11,437 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:20:11,734 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:20:11,769 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:20:11,796 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:20:12,812 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:20:13,140 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:20:13,266 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:20:13,266 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:20:13,308 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:20:13,308 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:20:14,361 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:20:14,361 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:20:14,417 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:20:14,417 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:20:14,465 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:20:14,465 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:20:15,312 INFO [test02_mp_article.py(test_mp_article:33)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章失败
+2022-04-18 17:20:15,313 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:20:15,313 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:20:17,144 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:20:17,144 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:20:17,195 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:20:18,721 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:20:19,020 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:20:19,063 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:20:19,083 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:20:20,093 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:20:20,411 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:20:20,533 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:20:20,533 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:20:20,576 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:20:20,576 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:20:21,647 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:20:21,647 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:20:21,702 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:20:21,702 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:20:21,748 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:20:21,748 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:20:22,294 ERROR [test02_mp_article.py(test_mp_article:39)] = 断言失败，错误信息为assert '新增文章失败' == '新增文章成功'
+  - 新增文章成功
+  + 新增文章失败
+2022-04-18 17:20:22,294 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
+2022-04-18 17:20:22,440 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:25:31,835 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="1573ad4a963d9833c8513a3a9c23ba07")>
+2022-04-18 17:25:31,835 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:25:31,835 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:25:32,849 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:25:33,127 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:25:33,164 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:25:34,179 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:25:34,450 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:25:34,478 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:25:34,478 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:25:34,512 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="1573ad4a963d9833c8513a3a9c23ba07")>
+2022-04-18 17:25:34,530 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:25:34,530 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:25:34,530 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:25:36,726 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:25:36,726 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:25:36,777 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:25:38,314 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:25:38,618 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:25:38,652 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:25:38,676 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:25:39,696 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:25:40,025 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:25:40,151 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:25:40,151 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:25:40,191 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:25:40,192 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:25:41,254 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:25:41,254 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:25:41,309 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:25:41,309 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:25:41,355 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:25:41,355 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:25:42,257 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:文章标题不能小于5个字符
+2022-04-18 17:25:42,257 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:25:42,257 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:25:44,096 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:25:44,096 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:25:44,140 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:25:45,682 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:25:45,967 INFO [base.py(base_input:35)] = 正在输入信息：ZF
+2022-04-18 17:25:45,991 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:25:46,012 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:25:47,021 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:25:47,330 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:25:47,450 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:25:47,450 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:25:47,487 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:25:47,488 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:25:48,552 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:25:48,552 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:25:48,607 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:25:48,607 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:25:48,650 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:25:48,650 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:26:19,081 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:格式错误！！
+2022-04-18 17:26:19,082 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:26:19,082 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:26:20,883 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:26:20,883 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:26:20,942 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:26:22,489 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:26:22,764 INFO [base.py(base_input:35)] = 正在输入信息：ZF
+2022-04-18 17:26:22,796 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:26:22,820 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:26:23,834 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:26:24,138 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:26:24,263 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:26:24,263 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:26:24,302 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:26:24,302 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:26:25,363 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:26:25,363 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:26:25,419 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:26:25,419 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:26:25,461 INFO [base.py(base_get_txt:46)] = 正在获取('xpath', '//*[text()="新增文章成功"]')的文本
+2022-04-18 17:26:25,462 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[text()="新增文章成功"]')
+2022-04-18 17:30:28,282 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="a7c6ca9610518d279042a557a7e1c9c6")>
+2022-04-18 17:30:28,282 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:30:28,283 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:30:29,308 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:30:29,585 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:30:29,623 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:30:30,647 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:30:30,920 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:30:30,948 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:30:30,949 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:30:30,985 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="a7c6ca9610518d279042a557a7e1c9c6")>
+2022-04-18 17:30:31,006 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:30:31,007 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:30:31,007 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:30:33,256 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:30:33,256 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:30:33,302 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:30:34,839 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:30:35,141 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:30:35,178 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:30:35,202 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:30:36,213 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:30:36,548 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:30:36,669 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:30:36,669 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:30:36,705 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:30:36,705 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:30:37,770 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:30:37,770 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:30:37,830 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:30:37,830 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:30:37,871 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:30:37,871 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:30:38,836 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:文章标题不能小于5个字符
+2022-04-18 17:30:38,836 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:30:38,836 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:30:40,656 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:30:40,656 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:30:40,700 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:30:42,241 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:30:42,538 INFO [base.py(base_input:35)] = 正在输入信息：ZF
+2022-04-18 17:30:42,568 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:30:42,587 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:30:43,600 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:30:43,911 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:30:44,042 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:30:44,042 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:30:44,083 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:30:44,083 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:30:45,138 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:30:45,138 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:30:45,193 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:30:45,193 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:30:45,239 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:30:45,240 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:30:45,544 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:格式错误！！
+2022-04-18 17:30:45,544 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:30:45,544 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:30:47,355 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:30:47,355 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:30:47,400 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:30:48,942 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:30:49,237 INFO [base.py(base_input:35)] = 正在输入信息：ZF
+2022-04-18 17:30:49,264 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:30:49,285 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:30:50,296 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:30:50,612 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:30:50,744 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:30:50,744 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:30:50,785 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:30:50,785 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:30:51,836 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:30:51,836 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:30:51,890 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:30:51,890 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:30:51,934 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:30:51,934 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:33:27,483 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="50d88bfeba067f316368539134ce97d9")>
+2022-04-18 17:33:27,483 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:33:27,483 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:33:28,504 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:33:28,796 INFO [base.py(base_input:35)] = 正在输入信息：13911111111
+2022-04-18 17:33:28,833 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:33:29,845 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:33:30,129 INFO [base.py(base_input:35)] = 正在输入信息：246810
+2022-04-18 17:33:30,158 INFO [base.py(base_click:41)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:33:30,159 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:33:30,195 INFO [base.py(__init__:15)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="50d88bfeba067f316368539134ce97d9")>
+2022-04-18 17:33:30,212 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:33:30,212 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:33:30,212 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:33:32,331 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:33:32,331 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:33:32,380 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:33:33,912 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:33:34,197 INFO [base.py(base_input:35)] = 正在输入信息：ZF001
+2022-04-18 17:33:34,235 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:33:34,256 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:33:35,271 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:33:35,589 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:33:35,722 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:33:35,723 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:33:35,763 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:33:35,763 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:33:36,830 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:33:36,830 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:33:36,885 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:33:36,885 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:33:36,926 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:33:36,927 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:33:37,750 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:文章标题不能小于5个字符
+2022-04-18 17:33:37,750 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:33:37,750 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:33:39,568 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:33:39,568 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:33:39,612 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:33:41,143 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:33:41,427 INFO [base.py(base_input:35)] = 正在输入信息：ZF
+2022-04-18 17:33:41,452 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:33:41,473 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:33:42,489 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:33:42,796 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:33:42,914 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:33:42,914 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:33:42,950 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:33:42,950 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:33:44,001 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:33:44,001 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:33:44,051 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:33:44,051 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:33:44,095 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:33:44,095 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:33:44,115 ERROR [test02_mp_article.py(test_mp_article:42)] = 断言失败，错误信息为assert '文章标题不能小于5个字符' == ''
+  + 文章标题不能小于5个字符
+2022-04-18 17:33:44,631 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
+2022-04-18 17:33:44,750 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:33:45,091 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:格式错误！！
+2022-04-18 17:33:45,091 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:33:45,091 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:33:46,921 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:33:46,921 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:33:46,965 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:33:48,513 INFO [base.py(base_input:32)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:33:48,793 INFO [base.py(base_input:35)] = 正在输入信息：ZF
+2022-04-18 17:33:48,821 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:33:48,841 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:33:49,862 INFO [base.py(base_input:32)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:33:50,173 INFO [base.py(base_input:35)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:33:50,293 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:33:50,293 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:33:50,330 INFO [base.py(base_click:41)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:33:50,330 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:33:51,379 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:33:51,379 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:33:51,427 INFO [base.py(base_click:41)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:33:51,427 INFO [base.py(base_find:23)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:33:51,472 INFO [base.py(base_get_txt:46)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:33:51,472 INFO [base.py(base_find:23)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:33:51,492 ERROR [test02_mp_article.py(test_mp_article:42)] = 断言失败，错误信息为assert '格式错误！！' == ''
+  + 格式错误！！
+2022-04-18 17:33:51,997 ERROR [base.py(base_get_img:51)] = 断言出错，正在执行截图操作！
+2022-04-18 17:33:52,116 ERROR [base.py(base_get_img:54)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:36:20,944 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="c78006486c32b19790716bcdc2413a2a")>
+2022-04-18 17:36:20,944 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:36:20,944 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:36:21,958 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:36:22,238 INFO [base.py(base_input:36)] = 正在输入信息：13911111111
+2022-04-18 17:36:22,279 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:36:23,305 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:36:23,585 INFO [base.py(base_input:36)] = 正在输入信息：246810
+2022-04-18 17:36:23,613 INFO [base.py(base_click:42)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:36:23,613 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:36:23,651 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="c78006486c32b19790716bcdc2413a2a")>
+2022-04-18 17:36:23,669 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:36:23,669 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:36:23,669 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:36:25,910 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:36:25,910 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:36:25,960 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:36:27,497 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:36:27,778 INFO [base.py(base_input:36)] = 正在输入信息：ZF001
+2022-04-18 17:36:27,814 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:36:27,837 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:36:28,860 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:36:29,163 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:36:29,286 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:36:29,287 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:36:29,324 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:36:29,324 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:36:30,387 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:36:30,387 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:36:30,442 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:36:30,442 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:36:30,485 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:36:30,485 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:36:31,319 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:文章标题不能小于5个字符
+2022-04-18 17:36:31,319 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:36:31,319 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:36:33,146 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:36:33,146 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:36:33,189 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:36:34,726 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:36:35,005 INFO [base.py(base_input:36)] = 正在输入信息：ZF
+2022-04-18 17:36:35,030 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:36:35,049 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:36:36,061 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:36:36,394 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:36:36,510 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:36:36,511 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:36:36,548 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:36:36,548 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:36:37,605 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:36:37,605 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:36:37,655 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:36:37,655 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:36:37,697 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:36:37,697 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:36:37,716 ERROR [test02_mp_article.py(test_mp_article:42)] = 断言失败，错误信息为assert '文章标题不能小于5个字符' == ''
+  + 文章标题不能小于5个字符
+2022-04-18 17:36:38,223 ERROR [base.py(base_get_img:52)] = 断言出错，正在执行截图操作！
+2022-04-18 17:36:38,342 ERROR [base.py(base_get_img:55)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:36:38,659 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:格式错误！！
+2022-04-18 17:36:38,660 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:36:38,660 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:36:40,482 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:36:40,482 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:36:40,522 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:36:42,079 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:36:42,376 INFO [base.py(base_input:36)] = 正在输入信息：ZF
+2022-04-18 17:36:42,401 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:36:42,419 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:36:43,434 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:36:43,755 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:36:43,871 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:36:43,871 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:36:43,911 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:36:43,911 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:36:44,967 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:36:44,967 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:36:45,014 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:36:45,014 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:36:45,050 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:36:45,051 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:36:45,065 ERROR [test02_mp_article.py(test_mp_article:42)] = 断言失败，错误信息为assert '格式错误！！' == ''
+  + 格式错误！！
+2022-04-18 17:36:45,573 ERROR [base.py(base_get_img:52)] = 断言出错，正在执行截图操作！
+2022-04-18 17:36:45,708 ERROR [base.py(base_get_img:55)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:45:45,918 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="40b6af6afcc6a228b0ecc20a4085e339")>
+2022-04-18 17:45:45,918 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:45:45,918 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:45:46,941 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:45:47,219 INFO [base.py(base_input:36)] = 正在输入信息：13911111111
+2022-04-18 17:45:47,273 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:45:48,294 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:45:48,564 INFO [base.py(base_input:36)] = 正在输入信息：246810
+2022-04-18 17:45:48,593 INFO [base.py(base_click:42)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:45:48,593 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:45:48,632 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="40b6af6afcc6a228b0ecc20a4085e339")>
+2022-04-18 17:45:48,646 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:格式错误！！
+2022-04-18 17:45:48,646 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:45:48,646 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:45:50,770 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:45:50,770 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:45:50,815 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:45:52,348 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:45:52,633 INFO [base.py(base_input:36)] = 正在输入信息：ZF
+2022-04-18 17:45:52,662 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:45:52,688 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:45:53,708 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:45:54,024 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:45:54,153 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:45:54,153 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:45:54,195 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:45:54,196 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:45:55,262 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:45:55,262 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:45:55,317 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:45:55,318 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:45:55,357 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:45:55,358 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:45:55,378 ERROR [test02_mp_article.py(test_mp_article:43)] = 断言失败，错误信息为assert '格式错误！！' == ''
+  + 格式错误！！
+2022-04-18 17:45:55,882 ERROR [base.py(base_get_img:52)] = 断言出错，正在执行截图操作！
+2022-04-18 17:45:56,021 ERROR [base.py(base_get_img:55)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:47:14,804 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="785a61454b2f80a9d12515c7f7f3e6e3")>
+2022-04-18 17:47:14,805 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:47:14,805 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:47:15,829 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:47:16,107 INFO [base.py(base_input:36)] = 正在输入信息：13911111111
+2022-04-18 17:47:16,145 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:47:17,167 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:47:17,442 INFO [base.py(base_input:36)] = 正在输入信息：246810
+2022-04-18 17:47:17,468 INFO [base.py(base_click:42)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:47:17,469 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:47:17,504 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="785a61454b2f80a9d12515c7f7f3e6e3")>
+2022-04-18 17:47:17,523 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:格式错误！！
+2022-04-18 17:47:17,523 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:47:17,523 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:47:19,779 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:47:19,779 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:47:19,824 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:47:21,354 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:47:21,641 INFO [base.py(base_input:36)] = 正在输入信息：ZF
+2022-04-18 17:47:21,666 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:47:21,690 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:47:22,713 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:47:23,035 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:47:23,160 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:47:23,160 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:47:23,204 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:47:23,204 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:47:24,267 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:47:24,267 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:47:24,318 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:47:24,318 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:47:24,363 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:47:24,363 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:47:24,383 ERROR [test02_mp_article.py(test_mp_article:43)] = 断言失败，错误信息为assert '格式错误！！' == ''
+  + 格式错误！！
+2022-04-18 17:47:24,894 ERROR [base.py(base_get_img:52)] = 断言出错，正在执行截图操作！
+2022-04-18 17:47:25,014 ERROR [base.py(base_get_img:56)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:57:17,520 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="ac25da78fba72172231366737dd4e46d")>
+2022-04-18 17:57:17,520 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 17:57:17,520 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 17:57:18,547 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 17:57:18,812 INFO [base.py(base_input:36)] = 正在输入信息：13911111111
+2022-04-18 17:57:18,857 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 17:57:19,877 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 17:57:20,165 INFO [base.py(base_input:36)] = 正在输入信息：246810
+2022-04-18 17:57:20,197 INFO [base.py(base_click:42)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 17:57:20,197 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 17:57:20,235 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="ac25da78fba72172231366737dd4e46d")>
+2022-04-18 17:57:20,248 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 17:57:20,248 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:57:20,248 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:57:22,510 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:57:22,510 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:57:22,558 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:57:24,094 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:57:24,385 INFO [base.py(base_input:36)] = 正在输入信息：ZF001
+2022-04-18 17:57:24,428 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:57:24,452 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:57:25,470 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:57:25,780 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:57:25,906 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:57:25,906 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:57:25,947 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:57:25,947 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:57:27,014 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:57:27,014 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:57:27,071 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:57:27,072 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:57:27,113 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:57:27,113 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:57:27,660 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:57:27,661 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:57:27,684 INFO [test02_mp_article.py(test_mp_article:41)] = 断言成功：新增文章成功 == 新增文章成功
+2022-04-18 17:57:28,044 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:文章标题不能小于5个字符
+2022-04-18 17:57:28,045 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:57:28,045 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:57:29,803 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:57:29,803 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:57:29,850 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:57:31,381 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:57:31,659 INFO [base.py(base_input:36)] = 正在输入信息：ZF
+2022-04-18 17:57:31,691 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:57:31,710 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:57:32,724 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:57:33,036 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:57:33,171 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:57:33,171 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:57:33,214 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:57:33,214 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:57:34,277 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:57:34,277 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:57:34,327 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:57:34,327 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:57:34,370 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:57:34,371 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:57:34,391 ERROR [test02_mp_article.py(test_mp_article:43)] = 断言失败，错误信息为assert '文章标题不能小于5个字符' == ''
+  + 文章标题不能小于5个字符
+2022-04-18 17:57:34,902 ERROR [base.py(base_get_img:52)] = 断言出错，正在执行截图操作！
+2022-04-18 17:57:35,019 ERROR [base.py(base_get_img:56)] = 断言出错，正在将图片写入allure报告
+2022-04-18 17:57:35,335 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:格式错误！！
+2022-04-18 17:57:35,336 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:57:35,336 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 17:57:37,135 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:57:37,135 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 17:57:37,183 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 17:57:38,766 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 17:57:39,061 INFO [base.py(base_input:36)] = 正在输入信息：ZF
+2022-04-18 17:57:39,091 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 17:57:39,112 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 17:57:40,124 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 17:57:40,433 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 17:57:40,558 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 17:57:40,559 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 17:57:40,598 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:57:40,598 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 17:57:41,663 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 17:57:41,663 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 17:57:41,709 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 17:57:41,709 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 17:57:41,749 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 17:57:41,749 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 17:57:41,767 ERROR [test02_mp_article.py(test_mp_article:43)] = 断言失败，错误信息为assert '格式错误！！' == ''
+  + 格式错误！！
+2022-04-18 17:57:42,275 ERROR [base.py(base_get_img:52)] = 断言出错，正在执行截图操作！
+2022-04-18 17:57:42,384 ERROR [base.py(base_get_img:56)] = 断言出错，正在将图片写入allure报告
+2022-04-18 18:06:57,098 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="8347d374a4e154105a6eb7fabbca0d32")>
+2022-04-18 18:06:57,099 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 18:06:57,099 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 18:06:58,120 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 18:06:58,396 INFO [base.py(base_input:36)] = 正在输入信息：13911111111
+2022-04-18 18:06:58,442 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 18:06:59,458 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 18:06:59,738 INFO [base.py(base_input:36)] = 正在输入信息：246810
+2022-04-18 18:06:59,765 INFO [base.py(base_click:42)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 18:06:59,765 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 18:06:59,804 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="8347d374a4e154105a6eb7fabbca0d32")>
+2022-04-18 18:06:59,820 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF001, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:新增文章成功
+2022-04-18 18:06:59,820 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:06:59,820 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:07:02,124 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:07:02,124 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:07:02,167 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 18:07:03,708 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 18:07:03,984 INFO [base.py(base_input:36)] = 正在输入信息：ZF001
+2022-04-18 18:07:04,024 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 18:07:04,051 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 18:07:05,066 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 18:07:05,363 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 18:07:05,492 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 18:07:05,492 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 18:07:05,535 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:07:05,535 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:07:06,591 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 18:07:06,591 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 18:07:06,648 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 18:07:06,648 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 18:07:07,700 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 18:07:07,700 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 18:07:07,728 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 18:07:07,729 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 18:07:07,741 INFO [test02_mp_article.py(test_mp_article:42)] = 断言成功：新增文章成功 == 新增文章成功
+2022-04-18 18:07:08,038 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:文章标题不能小于5个字符
+2022-04-18 18:07:08,038 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:07:08,038 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:07:09,856 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:07:09,856 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:07:09,900 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 18:07:11,444 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 18:07:11,742 INFO [base.py(base_input:36)] = 正在输入信息：ZF
+2022-04-18 18:07:11,770 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 18:07:11,793 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 18:07:12,804 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 18:07:13,112 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 18:07:13,239 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 18:07:13,239 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 18:07:13,282 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:07:13,282 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:07:14,347 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 18:07:14,347 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 18:07:14,399 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 18:07:14,400 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 18:07:15,448 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 18:07:15,448 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 18:07:15,464 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 18:07:15,464 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 18:07:15,480 INFO [test02_mp_article.py(test_mp_article:42)] = 断言成功：文章标题不能小于5个字符 == 文章标题不能小于5个字符
+2022-04-18 18:07:15,763 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:格式错误！！
+2022-04-18 18:07:15,763 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:07:15,763 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:07:17,577 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:07:17,577 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:07:17,627 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 18:07:19,197 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 18:07:19,489 INFO [base.py(base_input:36)] = 正在输入信息：ZF
+2022-04-18 18:07:19,533 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 18:07:19,565 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 18:07:20,594 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 18:07:20,914 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 18:07:21,056 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 18:07:21,056 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 18:07:21,095 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:07:21,095 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:07:22,150 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 18:07:22,150 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 18:07:22,202 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 18:07:22,202 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 18:07:23,259 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 18:07:23,259 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 18:07:23,275 ERROR [test02_mp_article.py(test_mp_article:44)] = 断言失败，错误信息为assert '格式错误！！' == '文章标题不能小于5个字符'
+  - 文章标题不能小于5个字符
+  + 格式错误！！
+2022-04-18 18:07:23,775 ERROR [base.py(base_get_img:52)] = 断言出错，正在执行截图操作！
+2022-04-18 18:07:23,924 ERROR [base.py(base_get_img:56)] = 断言出错，正在将图片写入allure报告
+2022-04-18 18:08:07,238 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="fb094022d99f0784ad8ffa2e39d666bf")>
+2022-04-18 18:08:07,239 INFO [page_mp_login.py(page_mp_login_success:40)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 18:08:07,239 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 18:08:08,251 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 18:08:08,553 INFO [base.py(base_input:36)] = 正在输入信息：13911111111
+2022-04-18 18:08:08,597 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 18:08:09,614 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 18:08:09,885 INFO [base.py(base_input:36)] = 正在输入信息：246810
+2022-04-18 18:08:09,914 INFO [base.py(base_click:42)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 18:08:09,914 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 18:08:09,955 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="fb094022d99f0784ad8ffa2e39d666bf")>
+2022-04-18 18:08:09,969 INFO [test02_mp_article.py(test_mp_article:36)] = 正在调用发布文章业务方法：title:ZF, content:宇宙无敌，第一python，别的语言都闪开！, click_text:ios, expect:格式错误！！
+2022-04-18 18:08:09,969 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:08:09,969 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:08:14,649 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:08:14,649 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:08:14,691 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 18:08:16,236 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 18:08:16,519 INFO [base.py(base_input:36)] = 正在输入信息：ZF
+2022-04-18 18:08:16,547 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 18:08:16,571 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 18:08:17,588 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 18:08:22,907 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 18:08:23,025 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 18:08:23,025 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 18:08:23,072 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:08:23,072 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:08:24,128 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 18:08:24,128 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 18:11:02,262 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="f993d77eddec55f272cb4599dede86ec")>
+2022-04-18 18:11:02,262 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 18:11:03,285 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 18:11:03,582 INFO [base.py(base_input:36)] = 正在输入信息：13911111111
+2022-04-18 18:11:03,619 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 18:11:04,639 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 18:11:04,910 INFO [base.py(base_input:36)] = 正在输入信息：246810
+2022-04-18 18:11:04,938 INFO [base.py(base_click:42)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 18:11:04,938 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 18:11:04,976 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="f993d77eddec55f272cb4599dede86ec")>
+2022-04-18 18:11:04,994 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:11:04,994 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:11:07,265 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:11:07,265 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:11:07,314 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 18:11:08,863 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 18:11:09,157 INFO [base.py(base_input:36)] = 正在输入信息：ZF
+2022-04-18 18:11:09,183 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 18:11:09,207 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 18:11:10,228 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 18:11:10,556 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 18:11:10,685 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 18:11:10,685 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 18:11:10,731 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:11:10,731 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:11:11,791 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 18:11:11,791 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 18:11:11,847 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 18:11:11,847 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 18:11:11,896 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 18:11:11,896 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 18:11:11,917 ERROR [test02_mp_article.py(test_mp_article:42)] = 断言失败，错误信息为assert '格式错误！！' == ''
+  + 格式错误！！
+2022-04-18 18:11:12,423 ERROR [base.py(base_get_img:52)] = 断言出错，正在执行截图操作！
+2022-04-18 18:11:12,534 ERROR [base.py(base_get_img:56)] = 断言出错，正在将图片写入allure报告
+2022-04-18 18:12:40,551 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="716cb402f05b13cd72c95da621acf330")>
+2022-04-18 18:12:40,552 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请输入手机号"]')
+2022-04-18 18:12:41,577 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="请输入手机号"]')进行清空
+2022-04-18 18:12:41,875 INFO [base.py(base_input:36)] = 正在输入信息：13911111111
+2022-04-18 18:12:41,912 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="验证码"]')
+2022-04-18 18:12:42,935 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="验证码"]')进行清空
+2022-04-18 18:12:43,224 INFO [base.py(base_input:36)] = 正在输入信息：246810
+2022-04-18 18:12:43,251 INFO [base.py(base_click:42)] = 正在点击：('css selector', '.el-button--primary')
+2022-04-18 18:12:43,251 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-button--primary')
+2022-04-18 18:12:43,291 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="716cb402f05b13cd72c95da621acf330")>
+2022-04-18 18:12:43,308 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:12:43,308 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="内容管理"]')
+2022-04-18 18:12:45,585 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:12:45,585 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//*[contains(text(),"发布文章")]')
+2022-04-18 18:12:45,633 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="文章名称"]')
+2022-04-18 18:12:47,161 INFO [base.py(base_input:33)] = 正在对('css selector', '[placeholder="文章名称"]')进行清空
+2022-04-18 18:12:47,446 INFO [base.py(base_input:36)] = 正在输入信息：ZF
+2022-04-18 18:12:47,473 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#publishTinymce_ifr')
+2022-04-18 18:12:47,497 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '#tinymce')
+2022-04-18 18:12:48,508 INFO [base.py(base_input:33)] = 正在对('css selector', '#tinymce')进行清空
+2022-04-18 18:12:48,824 INFO [base.py(base_input:36)] = 正在输入信息：宇宙无敌，第一python，别的语言都闪开！
+2022-04-18 18:12:48,949 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="自动"]')
+2022-04-18 18:12:48,949 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="自动"]')
+2022-04-18 18:12:48,991 INFO [base.py(base_click:42)] = 正在点击：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:12:48,991 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '[placeholder="请选择"]')
+2022-04-18 18:12:50,059 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="ios"]')
+2022-04-18 18:12:50,059 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="ios"]')
+2022-04-18 18:12:50,112 INFO [base.py(base_click:42)] = 正在点击：('xpath', '//span[text()="发表"]')
+2022-04-18 18:12:50,112 INFO [base.py(base_find:24)] = 正在定位元素：('xpath', '//span[text()="发表"]')
+2022-04-18 18:12:50,662 INFO [base.py(base_get_txt:47)] = 正在获取('css selector', '.el-message__content')的文本
+2022-04-18 18:12:50,662 INFO [base.py(base_find:24)] = 正在定位元素：('css selector', '.el-message__content')
+2022-04-18 18:12:50,677 ERROR [test02_mp_article.py(test_mp_article:43)] = 断言失败，错误信息为assert '格式错误！！' == '文章标题不能小于5个字符'
+  - 文章标题不能小于5个字符
+  + 格式错误！！
+2022-04-18 18:12:51,185 ERROR [base.py(base_get_img:52)] = 断言出错，正在执行截图操作！
+2022-04-18 18:12:51,296 ERROR [base.py(base_get_img:56)] = 断言出错，正在将图片写入allure报告

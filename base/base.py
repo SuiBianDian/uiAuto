@@ -1,3 +1,4 @@
+import time
 from time import sleep
 
 import allure
@@ -7,6 +8,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from tools.get_log import GetLog
 
 log = GetLog.get_logger()
+
 
 class Base:
     # 初始化
@@ -40,7 +42,6 @@ class Base:
         log.info(f'正在点击：{loc}')
         self.base_find(loc).click()
 
-
     # 获取文本
     def base_get_txt(self, loc):
         log.info(f'正在获取{loc}的文本')
@@ -49,7 +50,8 @@ class Base:
     # 截图
     def base_get_img(self):
         log.error(f'断言出错，正在执行截图操作！')
-        self.driver.get_screenshot_as_file('./image/error.png')
+        # self.driver.get_screenshot_as_file(f'./image/{time.strftime("%Y%m%d %H%M%S")}.png')
+        self.driver.get_screenshot_as_file(f'./image/error.png')
         # 调用 图片写入报告方法
         log.error('断言出错，正在将图片写入allure报告')
         self.__base_write_img()
@@ -59,4 +61,4 @@ class Base:
         # 1.获取文件流
         with open('./image/error.png', 'rb') as f:
             # 2.调用 allure.attach将图片贴入报告
-            allure.attach(f.read(),'错误原因', allure.attachment_type.PNG)
+            allure.attach(f.read(), '错误原因', allure.attachment_type.PNG)
