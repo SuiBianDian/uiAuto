@@ -24,7 +24,6 @@ class PageMpLogin(Base):
         """
         组合业务只能组合同页面的业务，多页面需要切换页面才能进行操作
         """
-        log.info(f'正在执行组合业务，用户名：{username}, 密码：{code}')
         self.page_input_username(username)
         self.page_input_code(code)
         self.page_click_login_btn()

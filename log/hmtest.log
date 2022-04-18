@@ -1196,3 +1196,9 @@
   + 格式错误！！
 2022-04-18 18:12:51,185 ERROR [base.py(base_get_img:52)] = 断言出错，正在执行截图操作！
 2022-04-18 18:12:51,296 ERROR [base.py(base_get_img:56)] = 断言出错，正在将图片写入allure报告
+2022-04-18 18:40:22,611 INFO [base.py(__init__:16)] = 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="4405928730a466ac4f8f3b48cf3d3284")>
+2022-04-18 18:40:22,612 INFO [test01_mp_login.py(test_mp_login:33)] = 正在执行组合业务，用户名：13911111111, 密码：246810
+2022-04-18 18:40:22,791 INFO [test01_mp_login.py(test_mp_login:33)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
+2022-04-18 18:40:22,807 INFO [test01_mp_login.py(test_mp_login:33)] = 正在执行组合业务，用户名：139111111111, 密码：246810
+2022-04-18 18:40:22,840 INFO [test01_mp_login.py(test_mp_login:33)] = 正在执行组合业务，用户名：13911111111, 密码：2468101
+2022-04-18 18:40:22,856 INFO [test01_mp_login.py(test_mp_login:33)] = 正在执行组合业务，用户名：13911111111, 密码：246810
