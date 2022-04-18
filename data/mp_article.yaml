@@ -1,0 +1,17 @@
+#mp_article001:
+#  title: "ZF001"
+#  content: "宇宙无敌，第一python，别的语言都闪开！"
+#  click_text: "ios"
+#  expect: "新增文章成功"
+#
+#mp_article002:
+#  title: "ZF"
+#  content: "宇宙无敌，第一python，别的语言都闪开！"
+#  click_text: "ios"
+#  expect: "文章标题不能小于5个字符"
+
+mp_article003:
+  title: "ZF"
+  content: "宇宙无敌，第一python，别的语言都闪开！"
+  click_text: "ios"
+  expect: "格式错误！！"
